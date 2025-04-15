@@ -1,0 +1,10 @@
+# dataset.yaml
+
+path: D:/scet/aiml/helmet-detection-yolov8/dataset  # base directory where images and labels folders are
+
+train: images/train  # relative to 'path'
+val: images/val       # relative to 'path'
+
+names:
+  0: with_helmet
+  1: without_helmet

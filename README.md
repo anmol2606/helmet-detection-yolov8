@@ -5,28 +5,28 @@ This project is a **Helmet Detection System** using the YOLOv8 object detection 
 # Project Structure
 
 helmet-detection-yolov8/                                                                           
-|----dataset.yaml
-|----annotations
-|----images
-|      |----BikesHelmets0.png
-|     └── ...
-├──dataset 
-|      |----images/
-│     |      ├── train/
-│     |      │       ├── img1.jpg
-│     |      │       └── ...
-│     |      └── val/
-│     |              ├── img2.jpg
-│     |              └── ...
-|      |---- labels/
-│             ├── train/
-│             │    ├── img1.txt
-│             │    └── ...
-│             └── val/
-│                    ├── img2.txt
-│                    └── ...
-|----vol_to_yolo.py
-|----helmet_detected.py
+|----dataset.yaml<br>
+|----annotations<br>
+|----images<br>
+|&emsp;&emsp;|----BikesHelmets0.png<br>
+|&emsp;&emsp;└── ...<br>
+├──dataset<br>
+|&emsp;&emsp;&ensp;|----images/<br>
+│&emsp;&emsp;|&emsp;&emsp;├── train/<br>
+│&emsp;&emsp;|&emsp;&emsp;│&emsp;&emsp;├── img1.jpg<br>
+│&emsp;&emsp;|&emsp;&emsp;│&emsp;&emsp;└── ...<br>
+│&emsp;&emsp;|&emsp;&emsp;└── val/<br>
+│&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&ensp;├── img2.jpg<br>
+│&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&ensp;└── ...<br>
+|&emsp;&emsp;&ensp;|---- labels/<br>
+│&emsp;&emsp;&emsp;&emsp;├── train/<br>
+│&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;├── img1.txt<br>
+│&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;└── ...<br>
+│&emsp;&emsp;&emsp;&emsp;└── val/<br>
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── img2.txt<br>
+│&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└── ...<br>
+|----vol_to_yolo.py<br>
+|----helmet_detected.py<br>
 
 ---
 
